@@ -1,0 +1,71 @@
+body {
+  background-image: url("https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+h1 {
+  font-family: monospace;
+}
+
+/* Styling Web Forms Lecture */
+
+#container {
+  width: 600px;
+  margin: auto;
+}
+
+form {
+  margin-top: 40px;
+}
+
+fieldset {
+  padding: 40px;
+  border: solid 1px #1fab89;
+  border-radius: 25px;
+  background-image: url('images/blue_background.jpg');
+}
+
+fieldset legend {
+  background: transparent;
+  padding: 10px;
+  border: solid 1px #1fab89;
+  border-radius: 10px;
+  font-family: fantasy;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  margin: 0 0 20px;
+  border: solid 1px #1fab89;
+  display: block;
+  width: 50%;
+  font-size: 14px;
+  color: #537d91;
+  font-family: monaco, monospace;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background: transparent;
+}
+
+label {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: fantasy;
+  background-image: url("images/red_background");
+}
+
+input[type="submit"] {
+  background: none;
+  background-image: url("http://www.freechristmaswallpapers.net/web/wallpapers/Green-Christmas-Minimalist-Background_1920x1200.jpeg");
+  height: 40px;
+  /* border: solid 1px #777;
+  padding: 0 40px;
+  color: #537d91; */
+}
+
+input[type="sumbit"]:hover {
+  cursor: pointer;
+  border-color: #444;
+}
