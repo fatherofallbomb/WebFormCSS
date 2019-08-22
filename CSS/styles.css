@@ -3,7 +3,8 @@ body {
 }
 
 h1 {
-  font-family: monospace;
+  font-family: Nunito;
+  font-weight: 500;
 }
 
 /* Styling Web Forms Lecture */
@@ -25,11 +26,12 @@ fieldset {
 }
 
 fieldset legend {
-  background: transparent;
+  background: white;
   padding: 10px;
   border: solid 1px #1fab89;
   border-radius: 10px;
-  font-family: fantasy;
+  font-family: Nunito;
+  font-weight: 400;
 }
 
 input[type="text"],
@@ -44,28 +46,46 @@ textarea {
   font-size: 14px;
   color: #537d91;
   font-family: monaco, monospace;
-  text-transform: uppercase;
-  border-radius: 10px;
-  background: transparent;
+  border-top: none;
+  /*text-transform: uppercase;
+  border-radius: 10px; */
+}
+
+textarea {
+  resize: none;
 }
 
 label {
   font-size: 12px;
   text-transform: uppercase;
-  font-family: fantasy;
-  background-image: url("images/red_background");
+  font-family: Roboto;
+  font-weight: 400;
+  background-image: url('images/red_background.jpg');
+  display: block;
+  width: 50.3%;
+  padding: 2%;
+  color: white;
+  border-top: none;
+
 }
+
+/* Submit Button & cursor */
 
 input[type="submit"] {
   background: none;
-  background-image: url("http://www.freechristmaswallpapers.net/web/wallpapers/Green-Christmas-Minimalist-Background_1920x1200.jpeg");
+  background-image: url("images/button_background.jpg");
   height: 40px;
-  /* border: solid 1px #777;
+  border: solid 1px #777;
   padding: 0 40px;
-  color: #537d91; */
+  color: white;
 }
 
 input[type="sumbit"]:hover {
   cursor: pointer;
   border-color: #444;
+}
+
+input[type="sumbit"]:active {
+  border-color: #808080;
+  outline-color: red;
 }
