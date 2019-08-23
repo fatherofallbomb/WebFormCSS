@@ -80,12 +80,12 @@ input[type="submit"] {
   color: white;
 }
 
-input[type="sumbit"]:hover {
+input[type="submit"]:hover {
   cursor: pointer;
   border-color: #444;
 }
 
-input[type="sumbit"]:active {
+input[type="submit"]:active {
   border-color: #808080;
   outline-color: red;
 }
